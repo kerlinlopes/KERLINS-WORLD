@@ -11,7 +11,7 @@ const MainSection = () => {
 
         <h1 className={s.mainTitle}>
           I'M
-          <strong className={s.mainName}> KERLIN</strong>
+          <strong className={s.mainName}>KERLIN</strong>
         </h1>
 
         <div style={{ paddingTop: 50 }}>
