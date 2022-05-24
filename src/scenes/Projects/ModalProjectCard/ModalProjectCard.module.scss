@@ -1,5 +1,6 @@
 .cardWrapper {
-  padding: 0 0 1.25rem;
+  padding: .3rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,8 +10,10 @@
 }
 
 .image {
+  margin-top: 30px;
   display: block;
-  max-width: 38rem;
+  //max-width: 38rem;
+  max-width: 30rem;
   min-height: 20rem;
 }
 
@@ -21,7 +24,7 @@
 }
 
 .cardFooter {
-  margin-top: 1rem;
+  margin-top: -1rem;
   display: flex;
   flex-direction: row;
   a:first-child {
@@ -44,7 +47,7 @@
 
 .technologies > span {
   display: inline-block;
-  background-color: RGB(129 72 144 / 56%);
+  background-color: #ffcc00ef;
   border-style: solid;
   border-color: transparent;
   border-width: 1px;

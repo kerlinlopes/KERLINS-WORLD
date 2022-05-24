@@ -1,1 +1,12 @@
 :export { logoPrimary: var(--logo-primary); }
+
+#logo {
+    width: 3rem;
+    height: 3rem;
+    float: left;
+}
+
+.logo-name {
+    font-size: 3rem;
+    float: right;
+}

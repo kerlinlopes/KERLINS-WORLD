@@ -7,7 +7,7 @@ export const LIGHT_THEME_PARTICLES = {
     },
   },
   color: {
-    value: '#623686',
+    value: '#dd0531',
   },
   opacity: {
     value: 1,
@@ -32,7 +32,7 @@ export const LIGHT_THEME_PARTICLES = {
   line_linked: {
     enable_auto: true,
     distance: 50,
-    color: '#623686',
+    color: '#ff3d00',
     opacity: 1,
     width: 1,
     condensed_mode: {
