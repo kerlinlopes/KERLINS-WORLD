@@ -1,13 +1,6 @@
 import s from './IntroSection.module.scss';
-import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
-import {
-  FaFacebookSquare,
-  FaLinkedinIn,
-  FaTelegramPlane,
-} from 'react-icons/fa';
-import Tilt from 'react-parallax-tilt';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 const IntroSection = () => {
   return (
@@ -15,59 +8,54 @@ const IntroSection = () => {
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            LET ME <span className={s.purple}> INTRODUCE </span>{' '}
-            MYSELF
+            LET ME<span className={s.name}> INTRODUCE </span> MYSELF
           </h1>
 
           <div className={s.description}>
             <p>
-              I fell in love with programming and I have at least
-              learnt something, I think… 🤷‍♂️
+              Hey! I'm Kerlin pronounced (KUR-lin). I always had a
+              desire to code and I never stop learning ... 🧠
             </p>
 
             <p>
-              My field of Interest's are building new
+              I like to create
               <i>
-                <b className={s.purple}>
+                <b className={s.bold}>
                   {' '}
-                  Web Technologies and Products
+                  Web Technologies and Applications{' '}
                 </b>
               </i>
+              from the ground up. Either backend or frontend.
             </p>
 
             <p>
-              A passionate Full Stack Software Developer 🚀 <br />I
-              have an experience of building{' '}
+              I have experience in building{' '}
               <i>
-                <b className={s.purple}>Web and Mobile</b>
+                <b className={s.bold}>Web and Mobile</b>
               </i>{' '}
-              applications with
+              with
               <br />
               <i>
-                <b className={s.purple}>
-                  JavaScript, Reactjs, Nodejs, React Native
+                <b className={s.bold}>
+                  HTML, CSS, JavaScript, React, Nodejs,
                 </b>
               </i>{' '}
               and some other cool libraries
             </p>
           </div>
         </div>
-
-        <Tilt trackOnWindow={true}>
-          <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
-        </Tilt>
       </div>
 
       <div className={s.introSocial}>
         <h1>FIND ME ON</h1>
         <p>
-          Feel free to <span className={s.purple}>connect </span>with
+          Feel free to <span className={s.bold}>connect </span>with
           me
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/kerlinlopes/kerlinlopes"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -77,27 +65,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-            >
-              <FaFacebookSquare />
-            </a>
-          </li>
-          <li className={s.socialLink}>
-            <a
-              href="https://t.me/snaichuk_v"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-            >
-              <FaTelegramPlane />
-            </a>
-          </li>
-          <li className={s.socialLink}>
-            <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://www.linkedin.com/in/kerlinlopes/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

@@ -1,7 +1,5 @@
 import s from './MainSection.module.scss';
-import homeMainIcon from '../../../assets/home-main.svg';
 import Typewriter from '../../../components/UIElements/Typewriter/Typewriter';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const MainSection = () => {
   return (
@@ -13,15 +11,15 @@ const MainSection = () => {
 
         <h1 className={s.mainTitle}>
           I'M
-          <strong className={s.mainName}> SNAICHUK VOLODYMYR</strong>
+          <strong className={s.mainName}> KERLIN</strong>
         </h1>
 
         <div style={{ paddingTop: 50 }}>
           <Typewriter
             strings={[
-              'MERN Stack Developer',
+              'Full Stack Developer',
               'Continuously Learning',
-              'React Native Developer',
+              'In love with CODE',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}
@@ -29,12 +27,6 @@ const MainSection = () => {
         </div>
       </div>
 
-      <LazyLoadImage
-        alt="home-img"
-        effect="blur"
-        src={homeMainIcon}
-        wrapperClassName={s.homeMainIcon}
-      />
     </section>
   );
 };
