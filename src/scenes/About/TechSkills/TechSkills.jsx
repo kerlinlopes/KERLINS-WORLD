@@ -1,52 +1,77 @@
 import s from './TechSkills.module.scss';
 import {
   DiJavascript1,
-  DiReact,
+  DiJqueryLogo,
   DiNodejs,
+  DiReact,
+  DiCss3,
+  DiSass,
   DiMongodb,
   DiGit,
-  DiSass,
+  DiHeroku
 } from 'react-icons/di';
 import {
+  SiHtml5,
+  SiPython,
+  SiPostgresql,
   SiTypescript,
-  SiRedux,
-  SiSocketDotIo,
-  SiAmazonaws,
+  SiContentful,
+  SiNetlify,
+  SiVercel
 } from 'react-icons/si';
 
 const TechSkills = () => {
   return (
     <ul className={s.container}>
       <li className={s.techIcon}>
-        <DiJavascript1 />
+        <DiJavascript1 /> 
       </li>
       <li className={s.techIcon}>
-        <SiTypescript />
+        <DiJqueryLogo /> 
       </li>
       <li className={s.techIcon}>
         <DiNodejs />
       </li>
       <li className={s.techIcon}>
-        <DiReact />
+        <DiReact /> 
       </li>
       <li className={s.techIcon}>
-        <DiMongodb />
+        <DiCss3 /> 
       </li>
       <li className={s.techIcon}>
         <DiSass />
       </li>
       <li className={s.techIcon}>
-        <SiAmazonaws />
-      </li>
-      <li className={s.techIcon}>
-        <SiRedux />
-      </li>
-      <li className={s.techIcon}>
-        <SiSocketDotIo />
+        <DiMongodb />
       </li>
       <li className={s.techIcon}>
         <DiGit />
       </li>
+      <li className={s.techIcon}>
+        <DiHeroku />
+      </li>
+      <li className={s.techIcon}>
+        <SiHtml5 />
+      </li>
+      <li className={s.techIcon}>
+        <SiPostgresql />
+      </li>
+      <li className={s.techIcon}>
+        <SiPython />
+      </li>
+      <li className={s.techIcon}>
+        <SiTypescript /> 
+      </li>
+      <li className={s.techIcon}>
+        <SiContentful />
+      </li>
+      <li className={s.techIcon}>
+        <SiNetlify />
+      </li>
+      <li className={s.techIcon}>
+        <SiVercel />
+      </li>
+
     </ul>
   );
 };

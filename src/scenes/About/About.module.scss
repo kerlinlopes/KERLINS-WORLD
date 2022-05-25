@@ -10,9 +10,6 @@
   align-items: center;
 }
 
-.aboutDescription {
-}
-
 .aboutImg {
   width: 40%;
   min-width: 320px;
@@ -44,9 +41,14 @@
   padding-top: 3rem;
 }
 
-.purple {
-  color: var(--txt-secondary);
+.here {
+  color: #ffce00;
 }
+
+.skills {
+  color: #ff3838;
+}
+
 
 
 @media (max-width: 925px) {
