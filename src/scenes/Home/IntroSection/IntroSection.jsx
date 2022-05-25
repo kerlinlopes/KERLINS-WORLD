@@ -1,6 +1,9 @@
 import s from './IntroSection.module.scss';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
+import Tilt from 'react-parallax-tilt';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import avatar from '../../../assets/avatar.svg';
 
 const IntroSection = () => {
   return (
@@ -46,11 +49,14 @@ const IntroSection = () => {
         </div>
       </div>
 
+      <Tilt trackOnWindow={true}>
+        <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
+      </Tilt>
+
       <div className={s.introSocial}>
         <h1>FIND ME ON</h1>
         <p>
-          Feel free to <span className={s.bold}>connect </span>with
-          me
+          Feel free to <span className={s.bold}>connect </span>with me
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>

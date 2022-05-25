@@ -15,8 +15,8 @@ export const routes = {
 };
 
 const BaseRoutes = () => {
-  const location = useLocation();
-  const background = location.state?.background;
+  let location = useLocation();
+  let background = location.state?.background;
 
   return (
     <>
