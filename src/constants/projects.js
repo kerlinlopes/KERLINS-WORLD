@@ -186,4 +186,26 @@ export const PROJECTS = [
       '#svg',
     ],
   },
+  {
+    id: '8',
+    title: 'Museum Of Candy',
+    description:
+      'A museum of candy website using bootstrap.',
+    image: {
+      src: 'https://i.imgur.com/Lc4IreG.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://bootstrap-candy.netlify.app/',
+      repo: 'https://github.com/kerlinlopes/museum-of-candy-bootstrap',
+    },
+    technologies: [
+      '#HTML5',
+      '#css',
+      '#netlify',
+      '#javascript',
+      '#udemy',
+    ],
+  },
 ];
