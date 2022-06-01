@@ -187,7 +187,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: '8',
+    id: '9',
     title: 'Museum Of Candy',
     description:
       'A museum of candy website using bootstrap.',
