@@ -5,10 +5,10 @@ const AboutTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-      <span className={s.pink}>
-      A little about me ...{' '}
-        </span>
-        <br /> <br />
+      {/* <span className={s.pink}>
+      {' '}
+        </span> */}
+
         I attended a coding bootcamp in September of 2021 and I became a Software Engineer.{' '}
         <br /> <br /> 
         <span className={s.pink}>

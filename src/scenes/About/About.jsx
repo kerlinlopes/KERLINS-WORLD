@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
 import aboutPromoImg from '../../assets/about-promo.svg';
 import AboutTextCard from './AboutTextCard/AboutTextCard';
 import TechSkills from './TechSkills/TechSkills';
-import GithubActivity from './GithubActivity/GithubActivity';
+//import GithubActivity from './GithubActivity/GithubActivity';
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
         <div className={s.about}>
           <div className={s.aboutDescription}>
             <h1 className={s.title}>
-              How I got <b className={s.here}>HERE</b>
+               <b className={s.here}> A little about me...</b>
             </h1>
             <AboutTextCard />
           </div>
