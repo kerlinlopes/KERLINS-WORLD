@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://sv-dev.netlify.app/" target="_blank">KERLIN</a>
+  <a href="https://kerlin.netlify.app/" target="_blank">KERLIN</a>
 </h2>
 
 <div align="center">
@@ -17,7 +17,7 @@
 
 ## Built With
 
-My personal portfolio <a href="https://kerlin.netlify.app/" target="_blank">kerlin.netlify.app</a> <br/>
+My personal portfolio <a href="https://kerlin.netlify.app//" target="_blank">kerlin.netlify.app</a> <br/>
 
 This project built using these technologies:
 - React.js
