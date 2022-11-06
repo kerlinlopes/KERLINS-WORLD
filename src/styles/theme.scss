@@ -28,7 +28,10 @@
 }
 
 .dark {
-  --txt: #fff;
+  --txt: 	#003ef8;
+  --txt-secondary: 	#00c8ff;
+  //--txt-sec-darker: #ee00ff;
+  //--txt: #fff;
   // --txt-secondary: #8af85f;
   // --txt-sec-darcker: #5fc5f8;
   --bg-layout-home: linear-gradient(to left, RGB(27 20 41), RGB(20 15 35));
