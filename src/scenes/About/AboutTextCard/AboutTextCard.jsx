@@ -9,7 +9,7 @@ const AboutTextCard = () => {
       {' '}
         </span> */}
 
-        I attended a coding bootcamp in September of 2021 and I became a Software Engineer.{' '}
+        I attended a coding bootcamp in September of 2021 and I became a Junior Software Engineer.{' '}
         <br /> <br /> 
         <span className={s.pink}>
         My hobbies now include making mecha headsets 🎧, collecting keyboards ⌨️, learning JAVA 👩🏻‍💻, learning some Korean 🇰🇷, going to the park 🌳 and going to the gym🏋🏻‍♀️!!! {' '}
