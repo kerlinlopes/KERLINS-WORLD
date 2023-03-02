@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 //modals
 import ModalProjectCard from '../scenes/Projects/ModalProjectCard/ModalProjectCard';
 //scenes
@@ -20,15 +20,15 @@ const BaseRoutes = () => {
 
   return (
     <>
-      <Switch location={background || location}>
-        <Route path={routes.HOME} exact component={Home} />
-        <Route path={routes.ABOUT} component={About} />
-        <Route path={routes.PROJECTS} component={Projects} />
-        <Route path={routes.PROJECT} component={ModalProjectCard} />
-      </Switch>
+      <Routes location={background || location}>
+        <Route path={routes.HOME} exact element={<Home/>} />
+        <Route path={routes.ABOUT} element={<About/>} />
+        <Route path={routes.PROJECTS} element={<Projects/>} />
+        <Route path={routes.PROJECT} element={<ModalProjectCard/>} />
+      </Routes>
 
       {background && (
-        <Route path={routes.PROJECT} component={ModalProjectCard} />
+        <Route path={routes.PROJECT} element={<ModalProjectCard/>} />
       )}
     </>
   );
